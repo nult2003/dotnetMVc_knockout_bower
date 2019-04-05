@@ -53,9 +53,11 @@ var WebAppWithBower1;
     (function (Product) {
         var ProductVM = /** @class */ (function (_super) {
             __extends(ProductVM, _super);
-            //private loadJsonFile = require('load-json-file');
             function ProductVM() {
                 var _this = _super.call(this) || this;
+                //private loadJsonFile = require('load-json-file');
+                _this.currentProduct = ko.observable(new WebAppWithBower1.Entities.ProductObser());
+                var that = _this;
                 //this.loadJsonFile('../../../data/product.json').then(json => {
                 //    console.log("jsondata: ", json);
                 //})
@@ -65,8 +67,14 @@ var WebAppWithBower1;
                     console.log("--resp--");
                     console.log(text);
                     console.log("--end--");
+                    var object = JSON.parse(text);
+                    var result = {
+                        ProductId: object[0].ProductId,
+                        ProductCode: object[0].ProductCode,
+                        ProductName: object[0].ProductName
+                    };
+                    that.currentProduct().DataObjectToObservable(result);
                 });
-                console.log("productJson: ", asyncReadJson());
                 return _this;
             }
             return ProductVM;

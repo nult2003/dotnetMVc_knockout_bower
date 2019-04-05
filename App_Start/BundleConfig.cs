@@ -11,9 +11,10 @@ namespace WebAppWithBower1.App_Start
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/knockout").Include(
-                        "~/lib/knockout/knockout.js"
-                        //"~/Scripts/Vendors/Knockout/knockout.validation.js",
-                        //"~/Scripts/Vendors/Knockout/knockout-handlers.js",
+                        "~/lib/knockout/dist/knockout.js",
+                        "~/Scripts/Entities/ObservableObject.js",
+                        "~/Scripts/Entities/Entities.js",
+                        "~/Scripts/Entities/EntitiesObservables.js"
                         //"~/Scripts/Vendors/Knockout/knockout-extenders.js",
                         //"~/Scripts/Components/ComponentLoader.js",
                         //"~/Scripts/Vendors/Knockout/knockout-sortable.js",

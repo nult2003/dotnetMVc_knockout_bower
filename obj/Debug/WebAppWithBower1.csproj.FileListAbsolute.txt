@@ -53,3 +53,4 @@ C:\zMinhNhatLe\zStudy\Practice\WebAppWithBower\WebAppWithBower1\obj\Debug\WebApp
 C:\zMinhNhatLe\zStudy\Practice\WebAppWithBower\WebAppWithBower1\obj\Debug\WebAppWithBower1.csproj.CopyComplete
 C:\zMinhNhatLe\zStudy\Practice\WebAppWithBower\WebAppWithBower1\obj\Debug\WebAppWithBower1.dll
 C:\zMinhNhatLe\zStudy\Practice\WebAppWithBower\WebAppWithBower1\obj\Debug\WebAppWithBower1.pdb
+C:\zMinhNhatLe\zStudy\Practice\WebAppWithBower\WebAppWithBower1\obj\Debug\WebAppWithBower1.csprojAssemblyReference.cache
